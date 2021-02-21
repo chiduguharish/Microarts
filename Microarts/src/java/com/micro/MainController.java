@@ -31,7 +31,7 @@ public class MainController {
 	public ModelAndView shop() {
 		
 		
-		
+		System.out.println("shop");
 		ModelAndView modelAndView = new ModelAndView("shop");
         return modelAndView;
 		
